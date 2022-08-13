@@ -1218,11 +1218,13 @@ input[type="radio"] + label:before {
 
 /* Image */
 .image {
+  max-width: 700px;
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
   position: relative; }
   .image img {
+    max-width: 700px;
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
@@ -1246,9 +1248,9 @@ input[type="radio"] + label:before {
   .image.main {
     display: block;
     margin: 0 0 3em 0;
-    width: 100%; }
+    max-width: 1000px; }
     .image.main img {
-      width: 100%; }
+      max-width: 1000px; }
 
 a.image {
   overflow: hidden; }
